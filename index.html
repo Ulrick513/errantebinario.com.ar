@@ -1,0 +1,74 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ErranteBinario</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<header>
+    <h1>🚀 ErranteBinario</h1>
+    <p>Explorando el mundo del código y la creación</p>
+</header>
+
+<main>
+   
+    <section id="inicio">
+        <h2>¡Bienvenido a mi espacio!</h2>
+        
+        
+        <img src="imagenes/perfil.jpg" alt="Imagen de perfil de ErranteBinario" class="imagen-perfil">
+        
+        <p>¡Hola! Soy ErranteBinario, y este es mi rincón en internet. Aquí comparto mis proyectos, mis avances y todo lo que voy aprendiendo en el mundo de la programación y el desarrollo.</p>
+        <br>
+        <p>Esta página la estoy construyendo <strong>desde cero, con mis propias manos</strong>, escribiendo cada línea de código. ¡Estoy aprendiendo y mejorando día a día!</p>
+        
+        <button id="botonSaludo">Haz Click Aquí 👋</button>
+        <p id="mensaje"></p>
+    </section>
+
+    
+    <section id="sobre-mi">
+        <h2>Sobre Mí</h2>
+        
+        
+        <img src="imagenes/proyecto.jpg" alt="Imagen de mis proyectos" class="imagen-contenido">
+        
+        <p>Me gusta crear cosas en internet. Me apasiona dar vida a ideas, ya sea mediante páginas web, juegos o cualquier cosa que se pueda imaginar y construir con código.</p>
+        <br>
+        <p>Aparte de esta página, estoy creando un <strong>juego en 2D</strong> como proyecto personal. Cuando lo termine, ¡lo subiré aquí mismo para que todos lo puedan ver y probar!</p>
+        <br>
+        <p>Mi meta es aprender, mejorar y compartir todo lo que voy logrando en este camino de desarrollo.</p>
+    </section>
+
+    
+    <section id="contacto">
+        <h2>Contáctenme</h2>
+        <p>¿Tienes alguna sugerencia, idea o simplemente quieres saludar?</p>
+        <p>Puedes escribirme a: <strong>errantebinario@correo.com</strong></p>
+        <br>
+        <p>Siempre estoy abierto a conversar sobre programación, proyectos nuevos o intercambiar conocimientos.</p>
+    </section>
+</main>
+
+<footer>
+    <p>© 2026 ErranteBinario — Todos los derechos reservados</p>
+    <p>Hecho con 💚 y mucho código desde cero</p>
+</footer>
+
+<script>
+    const boton = document.getElementById('botonSaludo');
+    const mensaje = document.getElementById('mensaje');
+
+    if (boton) {
+        boton.addEventListener('click', function () {
+            mensaje.textContent = '🎉 ¡Gracias por visitar mi página! ¡Espero que vuelvas pronto!';
+            mensaje.style.color = '#2563eb';
+            mensaje.style.marginTop = '15px';
+        });
+    }
+</script>
+
+</body>
+</html>
